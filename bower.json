@@ -1,0 +1,23 @@
+{
+  "name": "reactjs",
+  "description": "website using ReactJS",
+  "main": "app-server.js",
+  "authors": [
+    "Kabeer Rifaye <citizen.kabeer@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/KabeerRifaye/reactjs",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
