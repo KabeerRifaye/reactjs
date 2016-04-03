@@ -17,9 +17,9 @@
     "webpack": "^1.12.14"
   },
   "scripts": {
-    "postinstall": "./node_modules/bower/bin/bower install",
     "prestart": "webpack",
-    "start": "node app-server.js"
+    "start": "node app-server.js",
+    "postinstall": "bower install"
   },
   "author": "Kabeer Rifaye <citizen.kabeer@gmail.com>",
   "license": "MIT"
